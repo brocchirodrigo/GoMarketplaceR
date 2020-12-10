@@ -32,7 +32,6 @@ const CartProvider: React.FC = ({ children }) => {
     async function loadProducts(): Promise<void> {
       // TODO LOAD ITEMS FROM ASYNC STORAGE
     }
-
     loadProducts();
   }, []);
 
